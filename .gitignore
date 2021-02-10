@@ -1,0 +1,40 @@
+# system
+.DS_Store
+.vscode
+*.so
+.idea
+
+# Python
+*.pyc
+build/
+venv*/
+*.egg-info
+.eggs/
+__pycache__
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# data
+data-*
+data_*
+docs-private/
+data/
+*debug.png
+*.pl
+*.pl-*
+*.pl.*
+*.pkl
+*.pkl-*
+*.pkl.*
+*.log
+*.zip
+outputs/
+all-images/
+shared/
+decoder.prof
+decoder_flame.svg
+*.onnx
+debug.*.png
+test-clis-*/
+*.mlmodel
